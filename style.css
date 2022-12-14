@@ -1,0 +1,137 @@
+/* Google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* header site css start here  */
+
+.header-main{
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-site{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.header-menu > ul > li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+.header-menu > ul > li:last-child{
+    padding-right: 0;
+}
+
+.header-menu > ul > li>a{
+    color: #fff;
+    font-size: 1.6rem;transition: .2s;
+}
+.header-menu > ul > li>a:hover{
+    color: #FF0E47;
+}
+
+/* banner content  */
+
+.banner-content-main{
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-content-main h1{
+    color: #fff;
+    font-size: 8rem ;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.banner-content-main h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.banner-content-main button{
+    background: #FF0E47;
+    border: 0;
+    padding: 1.7rem 5rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* header site css end here  */
+
+
+/* Post Section Css Start Here  */
+
+.post-section-main{
+    padding: 60px 0;
+}
+
+.post-box{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.post-left-banner{
+    border-right: solid 1px #ddd;
+  
+    padding: 0 60px;
+}
+.post-left{
+    border-bottom: solid 1px #ddd;
+}
+.post-left h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #1b1e28;
+}
+
+.post-left p{
+    color: #1b1e28;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.post-left img{
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+.post-left a {
+    display: inline-block;
+    font-size: 1.56rem;
+    color: #ff0e47cf;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.post-left a:hover{
+    color: #1b1e28;
+}
+
+
+
+/* Post Section Css End Here  */
