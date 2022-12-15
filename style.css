@@ -88,12 +88,12 @@
 
 .post-box{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
 }
-
-.post-left-banner{
+.left-box-main{
     border-right: solid 1px #ddd;
-  
+}
+.post-left-banner{
     padding: 0 60px;
 }
 .post-left{
@@ -119,19 +119,112 @@
     margin: 15px 0;
 }
 
-.post-left a {
+.read-more-btn {
     display: inline-block;
     font-size: 1.56rem;
     color: #ff0e47cf;
     font-weight: 400;
     transition: .3s;
     margin-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .post-left a:hover{
     color: #1b1e28;
 }
 
+/* post single css start here  */
 
+.single-post-main{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+}
+
+.single-post{
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.single-post h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.single-post img{
+    max-width: 100%;
+}
+
+.post-para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.6;
+    padding: 13px 0;
+}
+
+.date-post {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ff0e47 !important;
+}
+
+
+/* post single css end here  */
+
+/* pagination css start here  */
+
+.pagination-page ul{
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.pagination-page{
+    text-align: center;
+}
+.pagination-page ul > li{
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.pagination-page ul > li:first-child {
+    
+    background: #FF0E47;
+    color: #fff;
+    
+}
+
+.next-page-btn{
+    font-size: 1.5rem;
+    color: #000;
+    display: inline-block;
+    padding: 9px 30px;
+    
+}
+.btn-default{
+    border: solid 1px #FF0E47;
+    transition: linear .3s;
+}
+.btn-default:hover{
+    background: #FF0E47;
+    color: #fff;
+}
+.pagination-box{
+    display: flex;
+    grid-template-columns: 2 1;
+    justify-content: space-around;
+}
+
+/* pagination css end here  */
 
 /* Post Section Css End Here  */
