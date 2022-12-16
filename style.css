@@ -9,6 +9,10 @@
     font-size: 62.5%;
 }
 
+ul > li{
+    list-style: none;
+}
+
 .container{
     width: 70%;
     margin: 0 auto;
@@ -30,7 +34,6 @@
 }
 
 .header-menu > ul > li{
-    list-style: none;
     display: inline-block;
     padding: 0 18px;
 }
@@ -132,7 +135,7 @@
     color: #1b1e28;
 }
 
-/* post single css start here  */
+/* ? post single css start here  */
 
 .single-post-main{
     padding: 60px;
@@ -174,9 +177,9 @@
 }
 
 
-/* post single css end here  */
+/* ? post single css end here  */
 
-/* pagination css start here  */
+/* ! pagination css start here  */
 
 .pagination-page ul{
     margin-left: 0;
@@ -187,7 +190,6 @@
     text-align: center;
 }
 .pagination-page ul > li{
-    list-style: none;
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -225,9 +227,9 @@
     justify-content: space-around;
 }
 
-/* pagination css end here  */
+/* ! pagination css end here  */
 
-/* Post Right section css start here  */
+/* ? Post Right section css start here  */
 .post-right{
     padding: 0 40px;
 }
@@ -262,7 +264,158 @@
 
 /* Search Box Css End  */
 
-/* Post Right section css end here  */
+/* Single Post Box Css start Here  */
 
-/* Post Section Css End Here  */
+.recent-post-main , .tag-section-box{
+    padding: 30px;
+    margin-top: 50px;
+    border: 4px solid rgba(0, 0, 0, .05);
+    border-radius: 5px;
+}
+.sing-head {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.post-single-box{
+    display: flex;
+}
 
+.post-single-box:hover{
+    cursor: pointer;
+}
+
+.post-single-box img{
+    width: 80px;
+    height: 80px;
+}
+
+.post-single-text{
+    margin-left: 15px;
+}
+
+.post-single-box{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.post-single-box:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.post-single-text h4{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #FF0E47;
+    margin-bottom: 15px;
+}
+
+.post-single-text p {
+    font-weight: 300;
+    font-size: 1.55rem;
+}
+
+/* Single Post Box Css end Here  */
+
+/* Tag Section Css Start here  */
+
+.tag-link{
+    display: inline-block;
+    padding: 8px 11px;
+    border: 1px solid #ddd;
+    font-size: 1.4rem;
+    color: #FF0E47;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    transition: linear .3s;
+}
+.tag-link:hover{
+    background: #FF0E47;
+    color: #fff;
+}
+
+.tab-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* ! Tag Section Css End here  */
+/* ? Post Right section css end here  */
+/* ? Post Section Css End Here  */
+
+/* ! Footer Section Css Start Here  */
+
+.foot-main{
+    background: #000;
+}
+.foot-another{
+    border-bottom: 1px solid #ddd;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-single{
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.footer-single h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.footer-single p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.footer-social{
+    margin-top: 60px;
+}
+
+.footer-social li{
+    display: inline-block;
+    
+}
+.footer-social li a i {
+    color: #000;
+    font-size: 2rem;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.footer-address li {
+    margin: 10px 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+
+/*? footer text box css starte here  */
+
+.footer-text-box{
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text-box p {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+/* ? footer text box css starte here  */
+
+/* ! Footer Section Css End Here  */
